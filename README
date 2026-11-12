@@ -1,0 +1,57 @@
+# ERP Solarpunk - Adubos e Suplementos
+
+Trabalho da faculdade (Ciência da Computação, 1º semestre), feito em C.
+
+É um programa de terminal que controla o estoque de adubos e suplementos do solo. Ele calcula quantos dias o estoque de cada produto vai durar e mostra um resumo com um gráfico simples.
+
+## O que o programa faz
+
+Ao rodar, aparece um menu:
+
+1. Selecionar o arquivo de entrada
+2. Processar os dados
+3. Ajustar dados (ver inconsistências, corrigir registro e ajustar estoque)
+4. Gerar o arquivo de saída (`adubos_saida.txt`)
+5. Dashboard e estatísticas
+0. Sair
+
+A conta principal é:
+
+```
+autonomia (dias) = estoque / consumo diário
+```
+
+Se a autonomia for 30 dias ou mais, o produto é **ÓTIMO**. Se for menos, é **DEFICITÁRIO**.
+
+## O que usamos de C
+
+- struct
+- vetores
+- ponteiros
+- Bubble Sort
+- funções
+- `scanf` com validação
+- `do-while` e `switch`
+- arquivos (`fopen`, `fprintf`, `fclose`)
+
+## Como rodar
+
+Precisa ter o `gcc` instalado.
+
+```
+gcc Project.c -o erp
+./erp
+```
+
+## O que ainda falta
+
+Essa é a versão que entregamos na faculdade. Ainda quero melhorar:
+
+- [ ] A opção 2 usa dados de exemplo no código, ainda não lê o arquivo de verdade
+- [ ] Corrigir a função que corrige inconsistências (ela sempre pega o primeiro erro)
+- [ ] Trocar o limite de 1000 kg por um `#define`
+- [ ] Separar o código em mais de um arquivo
+
+## Feito por
+
+- João Vitor Alves Maia

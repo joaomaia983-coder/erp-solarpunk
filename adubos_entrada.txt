@@ -1,0 +1,16 @@
+1;Humus_de_Minhoca;300;10.0
+2;Po_de_Rocha;800;8.0
+3;Farinha_de_Ossos;120;6.0
+4;Biofertilizante_Liquido;450;15.0
+5;Torta_de_Mamona;90;3.0
+6;Cinza_de_Madeira;60;4.0
+7;Composto_Organico;950;20.0
+8;Esterco_Curtido;200;5.0
+9;Farinha_de_Sangue;40;2.5
+10;Calcario_Dolomitico;700;3.5
+11;Casca_de_Ovo_Moida;25;0.5
+12;Fosfato_Natural;500;12.5
+13;Guano_de_Morcego;1500;5.0
+14;Alga_Marinha;80
+5;Bokashi;100;4.0
+16;Cinza_de_Osso;50;0

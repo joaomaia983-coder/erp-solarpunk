@@ -1,0 +1,14 @@
+Pos;ID;Produto;Estoque_kg;Consumo_kg_dia;Autonomia_dias;Situacao
+1;10;Calcario_Dolomitico;700;3.50;200.0;OTIMO
+2;2;Po_de_Rocha;800;8.00;100.0;OTIMO
+3;11;Casca_de_Ovo_Moida;25;0.50;50.0;OTIMO
+4;7;Composto_Organico;950;20.00;47.5;OTIMO
+5;8;Esterco_Curtido;200;5.00;40.0;OTIMO
+6;12;Fosfato_Natural;500;12.50;40.0;OTIMO
+7;3;Farinha_de_Ossos;220;6.00;36.7;OTIMO
+8;1;Humus_de_Minhoca;300;10.00;30.0;OTIMO
+9;4;Biofertilizante_Liquido;450;15.00;30.0;OTIMO
+10;5;Torta_de_Mamona;90;3.00;30.0;OTIMO
+11;16;Cinza_de_Osso;50;2.00;25.0;DEFICITARIO
+12;9;Farinha_de_Sangue;40;2.50;16.0;DEFICITARIO
+13;6;Cinza_de_Madeira;60;4.00;15.0;DEFICITARIO
